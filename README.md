@@ -14,3 +14,9 @@ Functions, on the other hand, can be. Also, another issue with functions is that
 Therefore, if you are using functions with large data sets, you can hit performance issues.
 
 
+Write a SQL query to find all towns that start with letters M, K, B or E. Order them alphabetically by town name. 
+Example
+  SELECT 
+      [Name]
+  FROM Towns
+  WHERE [Name] LIKE '[MKBE]%'
