@@ -15,8 +15,11 @@ Therefore, if you are using functions with large data sets, you can hit performa
 
 
 Write a SQL query to find all towns that start with letters M, K, B or E. Order them alphabetically by town name. 
-Example
+Examp
+
   SELECT 
       [Name]
   FROM Towns
   WHERE [Name] LIKE '[MKBE]%'
+  SELECT * FROM Towns
+  ORDER BY [Name]
